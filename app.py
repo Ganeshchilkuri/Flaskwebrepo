@@ -41,4 +41,4 @@ def predict():
     return jsonify({'prediction': f'Predicted CO2 Emissions: {prediction:.2f} g/km'})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
